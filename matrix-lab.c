@@ -75,7 +75,9 @@ void printMatrix(int input[SIZE][SIZE]) {
 
 int main() {
 
-    printf("Matrix 1:\n");
+    printf("\n\n");
+
+    printf("\nMatrix 1:\n");
     printMatrix(m1);
     printf("\nMatrix 2:\n");
     printMatrix(m2);
@@ -88,6 +90,8 @@ int main() {
 
     printf("\nTranspose of Matrix 1:\n");
     printMatrix(transposeMatrix(m1));
+
+    printf("\n\n");
 
     return 0;
 }
