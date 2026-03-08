@@ -1,7 +1,11 @@
 #include <stdio.h>
+
 /*
 /  EECS 348 Lab 5: Isaiah Jenks
-/  
+/  This program generates a sales report for a given year, utilizing hardcoded data for
+/  monthly sales and month names. It includes functions to display monthly sales,
+/  summarize key statistics such as minimum, maximum, and average sales, calculate
+/  six-month moving averages, and sort sales data from highest to lowest.
 */
 
 //////////////// jail for hardcoded constants /////////////////
